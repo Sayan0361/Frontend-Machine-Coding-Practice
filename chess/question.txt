@@ -1,0 +1,40 @@
+Title: Interactive Chessboard with Piece Movement Highlights
+Problem Statement:
+Build an interactive chessboard (8x8) using HTML, CSS, and JavaScript. The chessboard must support the following functionality:
+
+Display an empty 8x8 chessboard with alternating black and white cells.
+
+Provide buttons for each chess piece (Pawn, Rook, Knight, Bishop, Queen, and King) that the user can select.
+
+Once a piece is selected, allow the user to hover over any square, and highlight all valid moves for that piece starting from the hovered square, based on standard chess rules.
+
+Expected Features:
+Chessboard:
+
+Create a grid with 8 rows and 8 columns (64 cells total).
+
+Alternate cell colors (like a standard chessboard).
+
+Piece Selection:
+
+Include buttons labeled with different piece names.
+
+When a button is clicked, that piece becomes the "active" one for which moves are to be shown.
+
+Move Highlighting:
+
+When hovering over a square with a selected piece, show all valid move positions for that piece using visual highlighting.
+
+Implement correct movement rules for:
+
+Pawn: One step forward (no capturing or double move).
+
+Rook: Horizontal and vertical.
+
+Bishop: Diagonal.
+
+Knight: "L" shaped moves.
+
+Queen: Combination of rook and bishop.
+
+King: One step in any direction.
